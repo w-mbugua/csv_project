@@ -20,5 +20,8 @@ class Data(models.Model):
   uploaded = models.DateTimeField(auto_now_add=True)
   entered = models.BooleanField(default=False)
 
+  class Meta:
+        verbose_name_plural = "Data"
+
   def __str__(self):
     return f"File: {self.pk}"
