@@ -1,1 +1,1 @@
-web: gunicorn csv_project.wsgi --log-file -
+web: gunicorn csv_project.wsgi --timeout 90
