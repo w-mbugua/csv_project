@@ -14,7 +14,7 @@
 > * Run `pip install -r requirements.txt` in the terminal
 > * Launch the project in an IDE
 > * Create a `.env` file in the root folder with the following variables:
-```
+```diff
   + marvel api keys, stored as `PUBLIC_KEY` & `PRIVATE_KEY`
   + SECRET_KEY
   + MODE
@@ -24,7 +24,7 @@
   + HOST
   + DEBUG
   + ALLOWED_HOSTS
-  ```
+```
 
 
 ## Contribution
