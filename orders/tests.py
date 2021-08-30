@@ -5,13 +5,12 @@ import datetime
 # Create your tests here.
 class OrderModelTest(TestCase):
     def setUp(self):
-      self.newOrder = Order(invoice_no='76d456',
+      self.newOrder = Order(
                             stock_code='123',
                             description='test description',
                             quantity=3,
                             invoice_date=datetime.datetime.now(),
                             unit_price=4.5,
-                            customerID=109,
                             country='Kenya'
                             )
     def test_order_instance(self):
