@@ -13,6 +13,7 @@
 > * Navigate to the folder, create your virtual env
 > * Run `pip install -r requirements.txt` in the terminal
 > * Launch the project in an IDE
+> * Create a posgtresql database
 > * Create a `.env` file in the root folder with the following variables:
 ```
     Marvel api keys, stored as `PUBLIC_KEY` & `PRIVATE_KEY`
@@ -25,7 +26,7 @@
     DEBUG
     ALLOWED_HOSTS
 ```
-
+> * Run `python manage.py runserver` and navigate to `localhost:8000`
 
 ## Contribution
 
