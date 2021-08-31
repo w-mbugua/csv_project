@@ -18,6 +18,7 @@ form{
   max-width: 360px;
   margin: 0 auto 100px;
   padding: 45px;
+  border-radius: 10px;
 
 }
 input {
@@ -30,12 +31,15 @@ margin: 0 0 15px;
 padding: 15px;
 box-sizing: border-box;
 font-size: 14px;
+border-radius: 20px;
 }
 button {
 font-family: "Roboto", sans-serif;
 text-transform: uppercase;
+font-weight: bold;
 outline: 0;
 background: #4CAF50;
+border-radius: 20px;
 width: 100%;
 border: 0;
 padding: 15px;
@@ -70,7 +74,6 @@ background: #43A047;
     text-overflow: clip;
     }
     button {
-    
     padding: 10px;
     font-size: 11px;
     -webkit-transition: all 0.3 ease;
