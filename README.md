@@ -16,7 +16,6 @@
 > * Create a posgtresql database
 > * Create a `.env` file in the root folder with the following variables:
 ```
-    Marvel api keys, stored as `PUBLIC_KEY` & `PRIVATE_KEY`
     SECRET_KEY
     MODE
     DB_NAME
